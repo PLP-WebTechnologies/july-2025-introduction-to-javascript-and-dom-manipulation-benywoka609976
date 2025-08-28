@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mastering JavaScript Fundamentals</h1>
+            <p>Explore essential JavaScript concepts: variables, conditionals, functions, loops, and DOM manipulation</p>
+        </header>
+        
+        <!-- Part 1: JavaScript Basics -->
+        <section class="section" id="part1">
+            <h2>🎯 Part 1: JavaScript Basics</h2>
+            <p>Variables, data types, operators, and conditionals</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>User Input & Conditional Logic</h3>
+                    <p>Enter your age to check eligibility for voting:</p>
+                    <input type="number" id="ageInput" class="input-field" placeholder="Enter your age">
+                    <button id="checkEligibility" class="btn">Check Eligibility</button>
+                    <div id="eligibilityResult" class="output">Result will appear here</div>
+                </div>
+                
+                <div class="card">
+                    <h3>Number Comparison</h3>
+                    <p>Compare two numbers:</p>
+                    <input type="number" id="num1" class="input-field" placeholder="First number">
+                    <input type="number" id="num2" class="input-field" placeholder="Second number">
+                    <button id="compareNumbers" class="btn">Compare Numbers</button>
+                    <div id="comparisonResult" class="output">Result will appear here</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Part 2: JavaScript Functions -->
+        <section class="section" id="part2">
+            <h2>❤️ Part 2: JavaScript Functions</h2>
+            <p>Reusable blocks of logic for cleaner, DRY code</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Calculate Circle Properties</h3>
+                    <p>Enter radius to calculate area and circumference:</p>
+                    <input type="number" id="radiusInput" class="input-field" placeholder="Enter radius">
+                    <button id="calculateCircle" class="btn">Calculate</button>
+                    <div id="circleResult" class="output">Results will appear here</div>
+                </div>
+                
+                <div class="card">
+                    <h3>String Formatter</h3>
+                    <p>Enter text to format:</p>
+                    <input type="text" id="textInput" class="input-field" placeholder="Enter text">
+                    <div class="dom-interaction">
+                        <button id="formatUppercase" class="btn">UPPERCASE</button>
+                        <button id="formatLowercase" class="btn">lowercase</button>
+                        <button id="formatCapitalize" class="btn">Capitalize</button>
+                    </div>
+                    <div id="formattedText" class="output">Formatted text will appear here</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Part 3: JavaScript Loops -->
+        <section class="section" id="part3">
+            <h2>🔁 Part 3: JavaScript Loops</h2>
+            <p>Repetition and iteration with loops</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Multiplication Table</h3>
+                    <p>Generate multiplication table for a number:</p>
+                    <input type="number" id="multiplicationInput" class="input-field" placeholder="Enter a number">
+                    <button id="generateTable" class="btn">Generate Table</button>
+                    <div id="multiplicationResult" class="output">Table will appear here</div>
+                </div>
+                
+                <div class="card">
+                    <h3>Countdown Timer</h3>
+                    <p>Start a countdown from:</p>
+                    <input type="number" id="countdownInput" class="input-field" placeholder="Enter number">
+                    <button id="startCountdown" class="btn">Start Countdown</button>
+                    <div id="countdownResult" class="output">Countdown will appear here</div>
+                </div>
+            </div>
+            
+            <div id="arrayResult" class="output">Fruits list will appear here after page loads</div>
+        </section>
+        
+        <!-- Part 4: DOM Manipulation -->
+        <section class="section" id="part4">
+            <h2>🌐 Part 4: DOM Manipulation</h2>
+            <p>Making web pages interactive with JavaScript</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Element Creation</h3>
+                    <p>Add new items to the list:</p>
+                    <input type="text" id="newItemInput" class="input-field" placeholder="Enter item">
+                    <button id="addListItem" class="btn">Add to List</button>
+                    <div id="dynamicList" class="output">
+                        <div class="list-item">Initial item 1</div>
+                        <div class="list-item">Initial item 2</div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3>Style Manipulation</h3>
+                    <p>Change the appearance of the box:</p>
+                    <div class="color-box" id="styleBox">Box</div>
+                    <div class="dom-interaction">
+                        <button id="colorBlue" class="btn">Blue</button>
+                        <button id="colorRed" class="btn">Red</button>
+                        <button id="colorGreen" class="btn">Green</button>
+                        <button id="toggleRounded" class="btn">Toggle Rounded</button>
+                        <button id="toggleVisibility" class="btn">Toggle Visibility</button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3>Event Handling</h3>
+                    <p>Interact with the button and see events in action:</p>
+                    <button id="eventButton" class="btn">Click Me!</button>
+                    <div id="eventLog" class="output">Event log will appear here</div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>JavaScript Fundamentals Assignment &copy; 2023</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
